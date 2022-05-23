@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "FreeMono, monospace";
   background-color: rgb(50, 50, 50);
 }
 
@@ -27,6 +27,24 @@ p {
 
 .section {
   text-align: center;
+}
+
+.slide button {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: rgb(240, 11, 11);
+  padding: 17px 60px;
+  margin: 0 auto;
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
 }
 
 .skillbar {
@@ -87,7 +105,7 @@ p {
 }
 
 .nav-brand img {
-  width: 50px;
+  width: 100px;
 }
 
 .fa-bars {
